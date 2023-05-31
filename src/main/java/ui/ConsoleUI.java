@@ -28,6 +28,7 @@ public class ConsoleUI {
     /**
      * Instantiates a new Console ui.
      *
+     *
      * @param scanner the scanner
      */
     public ConsoleUI(Scanner scanner) {
