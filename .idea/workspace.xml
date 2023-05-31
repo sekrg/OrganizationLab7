@@ -4,63 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2129a765-9ce5-43f2-b06a-3e9955717ae4" name="Changes" comment="Lab7_ProjectBody">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection/ElementsReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/Invoker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/AddCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/AddIfMinCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/AverageCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/ClearCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/CountCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/ExecuteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/FilterCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/HelpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/HistoryCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/InfoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/RemoveByIdCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/SaveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/ShowCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/ShuffleCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commands/commandList/UpdateIDCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db/DataBaseProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/RecursionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Coordinates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Organization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/OrganizationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/CurrentUserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/OrganizationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/services/UserBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sql/PropertiesProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sql/SQLConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/ConsoleUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HistoryManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/InputType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ScriptManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tables" afterDir="false" />
-    </list>
+    <list default="true" id="2129a765-9ce5-43f2-b06a-3e9955717ae4" name="Changes" comment="Lab7_ProjectBody" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,7 +66,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "extract.method.default.visibility": "private",
     "last_opened_file_path": "C:/Users/mc_ga/IdeaProjects/OrganizationLab7",
@@ -133,7 +76,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -209,6 +153,14 @@
       <updated>1685449032307</updated>
       <workItem from="1685449033866" duration="12727000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab7_ProjectBody">
+      <created>1685559812579</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685559812579</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
