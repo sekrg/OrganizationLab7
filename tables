@@ -1,0 +1,17 @@
+CREATE TABLE users(
+    user_name varchar primary key,
+    password varchar NOT NULL,
+    salt varchar NOT NULL
+)
+
+CREATE TABLE organizations(
+    person_id int primary key,
+    name varchar not null,
+	coordinates_id int REFERENCES coordinates (coordinates_id),
+    creation_time date NOT NULL,
+	annual_turnover bigint not null,
+	employees_count bigint not null,
+    type varchar not null,
+    zip_code varchar not null,
+    creator_name varchar REFERENCES users (user_name)
+)

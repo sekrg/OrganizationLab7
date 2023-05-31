@@ -1,0 +1,115 @@
+<?xml version = "1.1" encoding="UTF-8" ?>
+<OrganizationCatalog>
+	<Organization>
+		<name>Apple</name>
+		<coordinates>
+			<x>4.0001</x>
+			<y>5.0000898</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:07:42 MSK 2023</creationDate>
+		<annualTurnover>3</annualTurnover>
+		<employeesCount>545</employeesCount>
+		<type>PRIVATE_LIMITED_COMPANY</type>
+		<officialAddress>
+			<zipCode>Тут будет улица, а не цифры</zipCode>
+		</officialAddress>
+	</Organization>
+	<Organization>
+		<name>Ap</name>
+		<coordinates>
+			<x>4.0001</x>
+			<y>5.0000898</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:07:42 MSK 2023</creationDate>
+		<annualTurnover>1</annualTurnover>
+		<employeesCount>545</employeesCount>
+		<type>PRIVATE_LIMITED_COMPANY</type>
+		<officialAddress>
+			<zipCode>Тут будет улица, а не цифры</zipCode>
+		</officialAddress>
+	</Organization>
+	<Organization>
+		<name>Juan</name>
+		<coordinates>
+			<x>4.0001</x>
+			<y>5.0000898</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:07:42 MSK 2023</creationDate>
+		<annualTurnover>3</annualTurnover>
+		<employeesCount>545</employeesCount>
+		<type>PRIVATE_LIMITED_COMPANY</type>
+		<officialAddress>
+			<zipCode>Тут будет улица, а не цифры</zipCode>
+		</officialAddress>
+	</Organization>
+	<Organization>
+		<name>1</name>
+		<coordinates>
+			<x>1.0</x>
+			<y>1.0</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:08:02 MSK 2023</creationDate>
+		<annualTurnover>1</annualTurnover>
+		<employeesCount>1</employeesCount>
+		<type>TRUST</type>
+		<officialAddress>
+			<zipCode>1</zipCode>
+		</officialAddress>
+	</Organization>
+	<Organization>
+		<name>2</name>
+		<coordinates>
+			<x>2.0</x>
+			<y>2.0</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:08:18 MSK 2023</creationDate>
+		<annualTurnover>2</annualTurnover>
+		<employeesCount>2</employeesCount>
+		<type>TRUST</type>
+		<officialAddress>
+			<zipCode>2</zipCode>
+		</officialAddress>
+	</Organization>
+	<Organization>
+		<name>3</name>
+		<coordinates>
+			<x>3.0</x>
+			<y>3.0</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:08:25 MSK 2023</creationDate>
+		<annualTurnover>3</annualTurnover>
+		<employeesCount>3</employeesCount>
+		<type>TRUST</type>
+		<officialAddress>
+			<zipCode>3</zipCode>
+		</officialAddress>
+	</Organization>
+	<Organization>
+		<name>4</name>
+		<coordinates>
+			<x>4.0</x>
+			<y>4.0</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:08:31 MSK 2023</creationDate>
+		<annualTurnover>4</annualTurnover>
+		<employeesCount>4</employeesCount>
+		<type>TRUST</type>
+		<officialAddress>
+			<zipCode>4</zipCode>
+		</officialAddress>
+	</Organization>
+	<Organization>
+		<name>5</name>
+		<coordinates>
+			<x>5.0</x>
+			<y>5.0</y>
+		</coordinates>
+		<creationDate>Tue Apr 25 00:08:40 MSK 2023</creationDate>
+		<annualTurnover>5</annualTurnover>
+		<employeesCount>5</employeesCount>
+		<type>TRUST</type>
+		<officialAddress>
+			<zipCode>5</zipCode>
+		</officialAddress>
+	</Organization>
+</OrganizationCatalog>
