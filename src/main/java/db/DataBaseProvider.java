@@ -85,6 +85,8 @@ public class DataBaseProvider {
             }
             statement0.close();
 
+            request.setCreator(userManager.getUserName());
+
             String query = "INSERT INTO organizations VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) returning organization_id";
             PreparedStatement statement = sqlConnection.getConnection().prepareStatement(query);
             statement.setInt(1, maxid);
@@ -103,6 +105,7 @@ public class DataBaseProvider {
                 id = resultSet.getInt("organization_id");
             }
             statement.close();
+            request.setId(id);
             dataSet.add(request);
             return id;
         } catch (SQLException e) {
