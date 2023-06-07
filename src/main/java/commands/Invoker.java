@@ -42,21 +42,26 @@ public class Invoker {
      */
     public String execute(String line) throws IOException {
         try {
+            String command = line.trim().split(" ")[0];
+            String[] input = line.trim().split(" ");
+            if (!getCommandMap().containsKey(command)){
+                return "Incorrect commandName!";
+            }
             for (Map.Entry<String, Command> entry : commandMap.entrySet()) {
-                if (entry.getKey().equals(line.trim().split(" ")[0])) {
+                if (entry.getKey().equals(command)) {
                     try {
                         history.addCommandToHistory(entry.getKey());
-                        return entry.getValue().execute(line.split(" "));
+                        return entry.getValue().execute(input);
                     } catch (RecursionException e){
                         System.out.println(e.getMessage());
                         scriptManager.clearScripts();
                     }
                 }
             }
-        } catch(NullPointerException e) {
-
+            return "WTF";
+        } catch (NullPointerException e){
+         return "Meet null string";
         }
-        return "Incorrect commandName!";
     }
     public void initMap(InputType type){
         commandMap.clear();

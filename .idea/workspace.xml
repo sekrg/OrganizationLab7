@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2129a765-9ce5-43f2-b06a-3e9955717ae4" name="Changes" comment="Lab7_ProjectBody">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2129a765-9ce5-43f2-b06a-3e9955717ae4" name="Changes" comment="Fix_Bugs_(ClearCommand)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,17 +24,7 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view>
-          <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="OrganizationLab" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
@@ -68,18 +56,15 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mc_ga/IdeaProjects/OrganizationLab7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/code/java/orders/yola/Laba7&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;DatabaseDriversLRU&quot;: [
@@ -154,29 +139,16 @@
       <option name="presentableId" value="Default" />
       <updated>1685449032307</updated>
       <workItem from="1685449033866" duration="12727000" />
+      <workItem from="1685902407539" duration="3302000" />
     </task>
-    <task id="LOCAL-00001" summary="Lab7_ProjectBody">
-      <created>1685559812579</created>
+    <task id="LOCAL-00001" summary="Fix_Bugs_(ClearCommand)">
+      <created>1686140026704</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1685559812579</updated>
+      <updated>1686140026704</updated>
     </task>
-    <task id="LOCAL-00002" summary="Lab7_ProjectBody">
-      <created>1685560015789</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1685560015790</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Lab7_ProjectBody">
-      <created>1685560189802</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1685560189802</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +166,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lab7_ProjectBody" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab7_ProjectBody" />
+    <MESSAGE value="Fix_Bugs_(ClearCommand)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix_Bugs_(ClearCommand)" />
   </component>
 </project>

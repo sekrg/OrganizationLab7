@@ -19,15 +19,19 @@ public class OrganizationController {
         return source.addOrganizationToDB(request);
     }
     public int addOrganizationifMin(Organization request){
-        Optional<Organization> min = source.getDataSet().stream()
-                .min(Comparator.comparing(Organization::getAnnualTurnover));
-        int id;
-        if (min.isPresent() && request.getAnnualTurnover() < min.get().getAnnualTurnover()){
-            id = source.addOrganizationToDB(request);
+        if (source.getList().size() == 0){
+            return source.addOrganizationToDB(request);
         } else {
-            id = -1;
+            Optional<Organization> min = source.getDataSet().stream()
+                    .min(Comparator.comparing(Organization::getAnnualTurnover));
+            int id;
+            if (min.isPresent() && request.getAnnualTurnover() < min.get().getAnnualTurnover()){
+                id = source.addOrganizationToDB(request);
+            } else {
+                id = -1;
+            }
+            return id;
         }
-        return id;
     }
     public boolean updateOrganizationById(Organization request, int id){
         boolean answ = false;

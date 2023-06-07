@@ -76,6 +76,8 @@ public class DataBaseProvider {
     public int addOrganizationToDB(Organization request){
         int id = -1;
         try {
+            request.setCreator(userManager.getUserName());
+
             String queryId = "SELECT coalesce(MAX(organization_id) +1, 1) FROM organizations";
             PreparedStatement statement0 = sqlConnection.getConnection().prepareStatement(queryId);
             ResultSet rs = statement0.executeQuery();
@@ -84,7 +86,6 @@ public class DataBaseProvider {
                 maxid = rs.getInt("coalesce");
             }
             statement0.close();
-
             request.setCreator(userManager.getUserName());
 
             String query = "INSERT INTO organizations VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) returning organization_id";
@@ -193,7 +194,6 @@ public class DataBaseProvider {
             int id = 0;
             while (rs.next()){
                 id = rs.getInt("coalesce");
-                System.out.println(id);
             }
             statement.close();
 
